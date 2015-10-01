@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e  
 sudo service docker start
-docker pull bipeen/container2 
+sudo docker pull bipeen/container2 
 
 #docker stop docker_drone 
 #docker rm docker_drone  
