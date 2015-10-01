@@ -3,4 +3,4 @@ set -e
 
 mvn clean install
 
-cp /var/cache/drone/src/github.com/bipeens/SimpleHelloWorld/target/SimpleHelloWorld.war /var/lib/docker
+cp /var/cache/drone/src/github.com/bipeens/HelloWorld/target/HelloWorld.war /var/lib/docker
