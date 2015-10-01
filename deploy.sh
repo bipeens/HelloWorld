@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e  
-sudo service start docker
+sudo service docker start
 docker pull bipeen/container2 
 
 #docker stop docker_drone 
