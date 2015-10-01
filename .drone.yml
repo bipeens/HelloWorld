@@ -1,0 +1,12 @@
+image: bipeen/docker_drone
+name: hello
+script:  
+  - ./build.sh
+deploy:  
+  bash:
+    script:
+      - ./deploy.sh
+notify:  
+  email:
+    recipients:
+      - bipeen.sawant@gslab.com
