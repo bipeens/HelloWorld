@@ -1,12 +1,13 @@
-image: bipeen/docker_drone
+image: bipeen/container2
 name: hello
-script:  
+docker:
+  volumes:
+    - /home/bipeen/Downloads/drone:/var/lib/docker
+script:
+  - chmod 777 ./build.sh
   - ./build.sh
-deploy:  
+deploy:
   bash:
     script:
+      - chmod 777 ./deploy.sh
       - ./deploy.sh
-notify:  
-  email:
-    recipients:
-      - bipeen.sawant@gslab.com
