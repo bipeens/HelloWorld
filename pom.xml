@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.gslab</groupId>
-  <artifactId>SimpleHelloWorld</artifactId>
+  <artifactId>HelloWorld</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>SimpleHelloWorld Maven Webapp</name>
+  <name>HelloWorld Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -28,7 +28,7 @@
         <version>2.3-SNAPSHOT</version>
       </plugin>
       </plugins>
-    <finalName>SimpleHelloWorld</finalName>
+    <finalName>HelloWorld</finalName>
     
   </build>
 </project>
